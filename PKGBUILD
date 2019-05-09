@@ -1,12 +1,12 @@
 pkgname=zfs-utils
-pkgver=0.8.0.rc4+e886
+pkgver=0.8.0.rc4+b689de85
 pkgrel=1
 pkgdesc="Userspace utilities for the Zettabyte File System."
 arch=("i686" "x86_64")
 url="https://zfsonlinux.org/"
 license=('CDDL')
 makedepends=("git")
-source=("git+https://github.com/zfsonlinux/zfs.git#commit=e8864b1b28c231d80f0df8b1c4b893f9ada73aad"
+source=("git+https://github.com/zfsonlinux/zfs.git#commit=b689de85e8c78b9dc03c1bd4c3ca0f4e75714e92"
         "zfs.initcpio.install"
         "zfs.initcpio.hook")
 sha256sums=('SKIP'
